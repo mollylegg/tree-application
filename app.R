@@ -5,7 +5,7 @@ library(ggplot2)
 library(shinyfilter)
 
 
-all_sec <- read.csv("~/sec_cleaned.csv")
+all_sec <- read.csv("sec_cleaned.csv")
 all_sec <- all_sec[, -c(1)]
 diffshape <- c("success", "diff_fb_speed", "diff_fb_spin", "diff_fb_ivb", "diff_fb_hb")
 
