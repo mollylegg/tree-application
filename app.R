@@ -3,10 +3,7 @@ library(rpart)
 library(partykit)
 library(ggplot2)
 library(shinyfilter)
-library(rsconnect)
 
-setwd("~/Desktop/Reactive_Trees")
-rsconnect::writeManifest()
 
 all_sec <- read.csv("~/Desktop/Reactive_Trees/sec_cleaned.csv")
 all_sec <- all_sec[, -c(1)]
